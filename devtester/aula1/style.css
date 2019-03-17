@@ -1,0 +1,33 @@
+
+body{
+    background-color: #FFFFFF;
+}
+
+#btnConfirmar{
+    background-color: #43A047;
+    color:cornsilk;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 10px;
+    border-radius: 20px;
+    border-color:#43A047;
+}
+
+/*posso criar um style para cada id ou criar uma classe generica e aplicar pra todos no html*/
+#nome{
+    display: block; /*para dar um enter entre os campos*/
+}
+
+#email{
+    display: block;
+}
+/*classe generica*/
+.form-input{
+    display: block;
+    margin: 10px; /*AUMENTAR A DISTANCIA ENTRE OS CAMPOS*/
+}
+
+#info{
+    display: block;
+    
+}
