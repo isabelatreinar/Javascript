@@ -1,20 +1,22 @@
-var prop1 = document.getElementById("nome").value;
-var prop2 = document.getElementById("email").value;
+
+
+ function novoCadastro(){
+
+    var nome = document.getElementById("nome").value;
+var email = document.getElementById("email").value;
 
 var novoCadastro = {
-    nome: prop1,
-    email: prop2 
+    nome: nome,
+    email: email 
 }
 
-novoCadastro.cadastrar = function(){
-
-    if(this.nome.length <= 0){
+    if(nome.length <= 0){
         alert("Nome deve ser obrigatório!")
-    }else if (this.email.length <= 0){
+    }else if (email.length <= 0){
         alert("Email deve ser preenchido!")
     }else{
         alert("Cadastro enviado com sucesso!")
-        console.log(this.nome)
+        console.log(nome)
     }
 
 }

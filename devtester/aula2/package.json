@@ -1,0 +1,22 @@
+{
+  "name": "exp",
+  "version": "1.0.0",
+  "description": "projeto para entender node",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "devtester"
+  ],
+  "author": "Isabela",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "npm": "^6.9.0",
+    "to": "^0.2.9",
+    "update": "^0.7.4"
+  }
+}
