@@ -10,7 +10,7 @@ app.use(bodyParser.json()); //dizer pra aplicação que vou usar a constante bod
 
 
 app.get('/', function(req,res){
-    return res.json({msg:'Ola Node com express'});
+    return res.json({mensagem: 'Olá Node com express'});
 });
 
 app.get('/users', function(req,res){
@@ -39,7 +39,9 @@ app.post('/users', function(req,res){
     var newUser = req.body;
 
     newUser.id = 4; //o id é um novo atributo que estou criando para a minha requisição, poderia criar vários e ir incrementando meu body
-
+    newUser.nome = "Isabela";
     return res.json(newUser);
 })
 app.listen(3000);
+
+module.exports = app; //estou exportando para conseguir a aplicação em outros arquivos

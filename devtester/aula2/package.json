@@ -18,5 +18,10 @@
     "npm": "^6.9.0",
     "to": "^0.2.9",
     "update": "^0.7.4"
+  },
+  "devDependencies": {
+    "mocha": "^6.0.2",
+    "nodemon": "^1.18.10",
+    "supertest": "^4.0.2"
   }
 }
